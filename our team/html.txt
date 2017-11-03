@@ -1,0 +1,49 @@
+<section class="members-container">
+    <h1 class="tittle">Our team</h1>
+
+    <div class="team-member member-1">
+        <img src="img/member-1.jpg" alt="">
+        <div class="text-box">
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="team-member member-2">
+        <img src="img/member-2.jpg" alt="">
+        <div class="text-box">
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="team-member member-3">
+        <img src="img/member-3.jpg" alt="">
+        <div class="text-box">
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="team-member member-4">
+        <img src="img/member-4.jpg" alt="">
+        <div class="text-box">
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <div class="team-member member-5">
+        <img src="img/member-5.jpg" alt="">
+        <div class="text-box">
+            <h2>Name</h2>
+            <h3>Profession</h3>
+            <p>Description</p>
+        </div>
+    </div>
+
+</section>

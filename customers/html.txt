@@ -1,0 +1,20 @@
+<section class="customers-container">
+    <h1 class="tittle-3">Our customers can't live without us</h1>
+    <div class="team-custumor customer-1">
+        <i class="ion-ios-star"></i>
+        <blockquote>Excellent service. My Furniture was ordered and delivered within 5 days. I would recommend Sofa So Good to friends and family. Their customer service staff were extremely helpful.All in all a First class service!</blockquote>
+        <cite><img src="img/member-3.jpg" alt="">&mdash;Alberto Duncan</cite>
+    </div>
+
+    <div class="team-custumor customer-2">
+        <i class="ion-ios-star-half"></i>
+        <blockquote>Inexpensive,simple and practical furniture. Sometimes the shop is full of products and you can't move around. We have lots of furniture shops here in Denmark, but nothing is close to Sofa So Good!</blockquote>
+        <cite><img src="img/member-1.jpg" alt="">&mdash;Joana Silva</cite>
+    </div>
+
+    <div class="team-custumor customer-3">
+        <i class="ion-ios-star-outline"></i>
+        <blockquote>Awful delivery. You offered a second delivery date which was not convenient for me on the 10th Oct, I said that the 11th would be ok for me and you delivered on the 10th anyway. Would not recommend.</blockquote>
+        <cite><img src="img/member-4.jpg" alt="">&mdash;Milton Chapman</cite>
+    </div>
+</section>

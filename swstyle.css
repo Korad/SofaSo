@@ -1,0 +1,337 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.insp {
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  margin: 4%;
+  padding: 2%;
+  width: 66%;
+  border: solid grey; }
+
+.inspimg {
+
+
+  left: 5%;
+  right: 5%; }
+
+.inimg img {
+  width: 300%; }
+
+.indiv {
+  width: 30%;
+
+  left: 5%;
+  padding-right: 4%; }
+
+.intext {
+  text-decoration-color: black;
+  font-size: 1.5em;
+  text-align: auto;
+  font-family: 'Quicksand', sans-serif;;
+width: 100%;
+padding-left: 100px;
+
+}
+
+.trailer {
+  float: left;
+  width: 35%;
+  margin: 5%; }
+
+.traimg {
+  width: 100%; }
+
+.delivery {
+  float: left;
+  width: 35%;
+  margin: 5%; }
+
+.delimg {
+  width: 100%; }
+
+html {
+  width: 100%;
+  height: 100%;
+  }
+
+html {
+  font-family: 'Quicksand', sans-serif; }
+
+.nav{
+  text-align: right;
+  height: 70px;
+  line-height: 60px;
+  font-size: 18px;
+  border-bottom: 2px solid #8d8a8f;
+  padding: 5px;
+
+
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  float: center;
+}
+span {
+  color: #fff200;
+  text-shadow: 1px 1px 2px #484848; }
+
+
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 20px;
+  line-height: 75px; }
+
+label {
+  margin: 0 20px 0 0;
+  font-size: 33px;
+  line-height: 75px;
+  display: none;
+  width: 26px;
+  float: right;
+  color: black; }
+
+#toggle {
+  display: none; }
+
+.banner {
+
+  height:25vh;
+  width: 100%; }
+img.logo{
+  max-width:120px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  margin-left: 5%;
+}
+footer{
+  height: 40vh;
+  background-color: #1B1C1C;
+}
+footer h1,h2,h3{
+  color: #FFF;
+  margin: 0;
+}
+.general{
+  margin: 80px 20px 0px 50px;
+}
+.general h1{
+  transition: .5s;
+  display: block;
+}
+.general h1:hover{
+  color:#fff500;
+}
+.general h2,.social h2{
+  font-size: 15px;
+  color: #777777;
+  margin-top: 20px;
+}
+.general h3,.social h3{
+  color: #777777;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.social{
+  margin: 80px 20px 0px 50px;
+}
+.social i{
+  font-size: 33px;
+  margin-right: 30px;
+  transition: .5s;
+}
+.social i:hover{
+  color:#fff500;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration: none;
+  color: black;
+  width: auto;
+}
+footer a:link,footer a:visited,footer a:hover,footer a:active{
+  color: #fff;
+  text-decoration: none;
+}
+.inspiration{
+  padding-bottom: 100px;
+}
+.text{
+
+  margin-top: 100px;
+}
+@media only screen and  (max-width: 20000px) and (min-width:1060px) {
+  .inspiration{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+            "text text text"
+            "pic1 pic2 pic3"
+    "pic4 pic5 pic6"
+  }
+  .text{
+    grid-area: text;
+
+  }
+  .pic1{
+    grid-area: pic1;
+  }
+  .pic2{
+    grid-area: pic2;
+  }
+  .pic3{
+    grid-area: pic3;
+  }
+  .pic4{
+    grid-area: pic4;
+  }
+  .pic5{
+    grid-area: pic5;
+  }
+  .pic6{
+    grid-area: pic6;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+            "general social"
+
+  }
+  .general{
+    grid-area: general;
+  }
+  .social {
+    grid-area: social;
+  }
+}
+section{
+
+  margin-left: 100px;
+  margin:20px;
+}
+.imgtrailer{
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+.imgdelivery{
+  max-width: 100%;
+  height: auto;
+  float: center;
+}
+.imginstalation{
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+@media only screen and  (max-width: 1060px) and (min-width:600px) {
+  .nav{
+    font-size: 15px;
+  }
+  img.logo{
+    margin-left: 0;
+  }
+  .menu a{
+    margin: 0 10px;
+  }
+  .other{
+    background-color: #E3E2E8;
+    height: 180vh;
+    width: 100%;
+  }
+  .bring{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+            "trailer trailer delivery delivery"
+            " . instalation instalation  ."
+  }
+  .trailer{
+    grid-area: trailer;
+  }
+  .delivery{
+    grid-area: delivery;
+  }
+  .instalation{
+    grid-area: instalation;
+  }
+
+  footer{
+    height: 50%;
+
+  }
+  .general{
+    position:center;
+    margin-top: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+
+  }
+  .social{
+    position: absolute;
+    margin-top: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  ;
+  }
+  .social i{
+    margin: 10px;
+  }
+}
+/*For screens under 600px*/
+@media only screen and (max-width: 600px) {
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #eaeaeb;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+  }
+  .bring{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+            "trailer"
+            "delivery"
+            "instalation"
+  }
+}
+.trailer{
+  grid-area: trailer;
+}
+.delivery{
+  grid-area: delivery;
+}
+.instalation{
+  grid-area: instalation;
+}
+

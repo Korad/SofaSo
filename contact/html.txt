@@ -1,0 +1,91 @@
+<section class="contact-container">
+    <h1 class="tittle-2">Contact</h1>
+    <div class="left-container">
+        <div class="row">
+            <h2>Our store</h2>
+            <img src="img/store.jpg">
+
+            <p id="align-text">Attn.:Jessie,Alex,Paulina,Denis,Steve
+            <br>
+            Addr.: Sundkaj 11, 2150 Nordhavn<br>
+            Loc.: Europe, Denmark
+            <br><br>
+            Phone inquiries, orders or support:<br>
+            (+45) 00 11 22 33</p>
+        </div>
+
+        <div class="row">
+            <h4>Contact hours:</h4>
+            <br>
+            <p id="align-hours"> Monday: 10-17:30<br>
+                Tuesday: 10-17:30<br>
+                Wednesday: 10-17:30<br>
+                Thursday: 10-17:30<br>
+                Friday: 10-17:30<br>
+                Saturday: 10-17:30<br>
+                Sunday: Closed<br>
+            </p>
+        </div>
+
+        <div class="row-1">
+            <h4>Support</h4>
+            <br>
+            <span><p>We love your feedback and questions!  Please send us a quick note and let us know what we can do to make your experience in creating the best environment for you.  We will always respond. <br>To contact us personally, use the address below.  We will try to be available for you all the time.<br>
+            Check our <font color="yellow">FAQs/Help page!</font> We may have your question already answered!</p></span>
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="right-container">
+        <form class="form" action="">
+            <fieldset>
+                <legend>Personal information:</legend>
+                <br>
+                First name*:<br>
+                <input type="text"  name="fname"placeholder="First Name" required value="">
+                <br>
+                Last name*:<br>
+                <input type="text" name="lname" placeholder="Last Name" required value="">
+                <br>
+                Email*:<br>
+                <input type="email" name="email" placeholder="Your E-mail" required value="">
+                <br>
+                Phone:<br>
+                <input type="number" name="phone" value="">
+                <br><br>
+                Contact Reasons
+                <br>
+                <br>
+                <input class="field" type="checkbox" name="" value="">
+                Interior Design Plan Question
+                <br>
+                <input class="field" type="checkbox" name="" value="">
+                Product Purchase
+                <br>
+                <input class="field" type="checkbox" name="" value="">
+                Advertising or Sponsorship
+                <br>
+                <input class="field" type="checkbox" name="" value="">
+                Delivery issues
+                <br>
+                <input class="field" type="checkbox" name="" value="">
+                Don't be like that and tick something...
+                <br><br>
+                Write additional information..
+                <br>
+                <textarea class="form" name="comments" placeholder="  Your message"></textarea>
+                <br><br>
+                <a class="btn" href="#">Submit</a>
+                <br>
+            </fieldset>
+        </form>
+    </div>
+</section>
+
+<section class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1331515.3004616394!2d9.903494225410714!3d55.936645247689924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b27b6ee945ffb%3A0x528743d0c3e092cd!2sDanemarca!5e0!3m2!1sro!2sdk!4v1509470990340" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
